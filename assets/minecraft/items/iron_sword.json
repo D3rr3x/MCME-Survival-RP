@@ -20,6 +20,13 @@
                     "type": "model",
                     "model": "item/gondor/gondor_sword"
                 }
+            },
+			{
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "item/rohan/rohan_sword"
+                }
             }
         ]
     }
