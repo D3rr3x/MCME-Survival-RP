@@ -27,6 +27,20 @@
                     "type": "model",
                     "model": "item/rohan/rohan_sword"
                 }
+            },
+			{
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "item/elven/elven_sword"
+                }
+            },
+			{
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "item/orc/orc_sword"
+                }
             }
         ]
     }

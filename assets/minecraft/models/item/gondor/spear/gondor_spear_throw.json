@@ -71,6 +71,18 @@
 		"firstperson_lefthand": {
 			"rotation": [-54, -90, 0],
 			"translation": [16, 12, 5.25]
+		},
+		"ground": {
+			"translation": [0, 17, 0]
+		},
+		"gui": {
+			"rotation": [0, 0, -45],
+			"translation": [-0.5, -0.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"fixed": {
+			"rotation": [0, 0, 45],
+			"scale": [0.5, 0.5, 0.5]
 		}
 	},
 	"groups": [
