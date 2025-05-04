@@ -65,7 +65,23 @@
 						"model": "item/rohan/shield/rohan_shield"
 					}
 				}
+            },
+			{
+                "threshold": 4,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/orc/shield/orc_shield_blocking"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/orc/shield/orc_shield"
+					}
+				}
             }
+			
         ]
     }
 }
