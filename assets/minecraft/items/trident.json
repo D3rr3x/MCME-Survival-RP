@@ -21,6 +21,21 @@
 						"model": "item/gondor/spear/gondor_spear"
 					}
 				}
+            },
+			{
+                "threshold": 2,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/dwarf/spear/dwarf_spear_throw"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/dwarf/spear/dwarf_spear"
+					}
+				}
             }
         ]
     }
