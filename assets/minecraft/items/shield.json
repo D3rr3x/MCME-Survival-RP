@@ -80,8 +80,52 @@
 						"model": "item/orc/shield/orc_shield"
 					}
 				}
+            },
+			{
+                "threshold": 5,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/ghost/shield/ghost_shield_blocking"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/ghost/shield/ghost_shield"
+					}
+				}
+            },
+			{
+                "threshold": 6,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/generic_human/shield_1/shield_blocking"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/generic_human/shield_1/shield"
+					}
+				}
+            },
+			{
+                "threshold": 7,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:using_item",
+					"on_true": {
+						"type": "model",
+						"model": "item/generic_human/shield_2/shield_blocking"
+					},
+					"on_false": {
+						"type": "model",
+						"model": "item/generic_human/shield_2/shield"
+					}
+				}
             }
-			
         ]
     }
 }

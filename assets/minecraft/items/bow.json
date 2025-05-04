@@ -43,7 +43,7 @@
 					"property": "minecraft:using_item",
 					"on_false": {
 						"type": "minecraft:model",
-						"model": "item/human_bow/bow"
+						"model": "item/generic_human/human_bow/bow"
 					},
 					"on_true": {
 						"type": "minecraft:range_dispatch",
@@ -53,21 +53,21 @@
 							{
 								"model": {
 									"type": "minecraft:model",
-									"model": "item/human_bow/bow_pulling_1"
+									"model": "item/generic_human/human_bow/bow_pulling_1"
 								},
 								"threshold": 0.65
 							},
 							{
 								"model": {
 									"type": "minecraft:model",
-									"model": "item/human_bow/bow_pulling_2"
+									"model": "item/generic_human/human_bow/bow_pulling_2"
 								},
 								"threshold": 0.9
 							}
 						],
 						"fallback": {
 							"type": "minecraft:model",
-							"model": "item/human_bow/bow_pulling_0"
+							"model": "item/generic_human/human_bow/bow_pulling_0"
 						}
 					}
 				}
