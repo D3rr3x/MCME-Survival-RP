@@ -160,10 +160,12 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 3, 0.75]
+			"translation": [0, 4, 1],
+			"scale": [1.2, 1.2, 1.2]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 3, 0.75]
+			"translation": [0, 4, 1],
+			"scale": [1.2, 1.2, 1.2]
 		},
 		"firstperson_righthand": {
 			"rotation": [-15, 0, 0],
