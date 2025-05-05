@@ -8,6 +8,13 @@
         },
         "entries": [
 			{
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "item/icons/hobbit_icon"
+                }
+            },
+			{
                 "threshold": 2,
                 "model": {
                     "type": "model",
