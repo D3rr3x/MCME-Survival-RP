@@ -20,6 +20,13 @@
                     "type": "model",
                     "model": "item/glamdring"
                 }
+            },
+			{
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "item/mershys_pencil"
+                }
             }
         ]
     }
