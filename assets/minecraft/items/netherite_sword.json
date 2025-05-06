@@ -27,6 +27,13 @@
                     "type": "model",
                     "model": "item/mershys_pencil"
                 }
+            },
+			{
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "item/nazgul_sword"
+                }
             }
         ]
     }
