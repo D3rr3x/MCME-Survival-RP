@@ -41,6 +41,13 @@
                     "type": "model",
                     "model": "item/ghost/ghost_sword2"
                 }
+            },
+			{
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "item/orc/orc_sword"
+                }
             }
         ]
     }
