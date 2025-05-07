@@ -25,21 +25,21 @@
                 "threshold": 3,
                 "model": {
                     "type": "model",
-                    "model": "item/icons/dwarf_icon"
+                    "model": "mmoinventory:item/class_icons/gimli_icon"
                 }
             },
 			{
                 "threshold": 4,
                 "model": {
                     "type": "model",
-                    "model": "item/icons/maia_icon"
+                    "model": "mmoinventory:item/class_icons/gandalf_icon"
                 }
             },
 			{
                 "threshold": 5,
                 "model": {
                     "type": "model",
-                    "model": "item/icons/human_icon"
+                    "model": "mmoinventory:item/class_icons/human_icon"
                 }
             }
         ]
