@@ -1,5 +1,6 @@
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "model": {
     "type": "select",
     "property": "custom_model_data",
@@ -26,6 +27,8 @@
     ]
   }
 =======
+=======
+>>>>>>> Stashed changes
     "model": {
         "type": "range_dispatch",
         "property": "custom_model_data",
@@ -120,5 +123,8 @@
             }
         ]
     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
