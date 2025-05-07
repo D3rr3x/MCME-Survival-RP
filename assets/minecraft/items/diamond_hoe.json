@@ -1,0 +1,130 @@
+{
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/diamond_hoe"
+    },
+    "cases": [
+      { "when": "helmet", "model": { "type": "model", "model": "mmoinventory:item/helmet" } },
+      { "when": "chestplate", "model": { "type": "model", "model": "mmoinventory:item/chestplate" } },
+      { "when": "leggings", "model": { "type": "model", "model": "mmoinventory:item/leggings" } },
+      { "when": "boots", "model": { "type": "model", "model": "mmoinventory:item/boots" } },
+      { "when": "amulet", "model": { "type": "model", "model": "mmoinventory:item/amulet" } },
+      { "when": "bracelet", "model": { "type": "model", "model": "mmoinventory:item/bracelet" } },
+      { "when": "ring1", "model": { "type": "model", "model": "mmoinventory:item/ring" } },
+      { "when": "ring2", "model": { "type": "model", "model": "mmoinventory:item/ring" } },
+      { "when": "gloves", "model": { "type": "model", "model": "mmoinventory:item/gloves" } },
+      { "when": "artifact1", "model": { "type": "model", "model": "mmoinventory:item/artifact" } },
+      { "when": "artifact2", "model": { "type": "model", "model": "mmoinventory:item/artifact" } },
+      { "when": "artifact3", "model": { "type": "model", "model": "mmoinventory:item/artifact" } },
+      { "when": "mainhand", "model": { "type": "model", "model": "mmoinventory:item/mainhand" } },
+      { "when": "off_hand", "model": { "type": "model", "model": "mmoinventory:item/off_hand" } },
+      { "when": "fill", "model": { "type": "model", "model": "mmoinventory:item/fill" } }
+    ]
+  }
+=======
+=======
+>>>>>>> Stashed changes
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/diamond_hoe"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "mmoinventory:item/helmet"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "mmoinventory:item/chestplate"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "mmoinventory:item/leggings"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "mmoinventory:item/boots"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "mmoinventory:item/amulet"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "mmoinventory:item/bracelet"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "mmoinventory:item/ring"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "mmoinventory:item/gloves"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "mmoinventory:item/artifact"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "mmoinventory:item/main_hand"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "mmoinventory:item/off_hand"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "mmoinventory:item/fill"
+                }
+            }
+        ]
+    }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+}
