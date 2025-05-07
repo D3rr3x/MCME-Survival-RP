@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/gui/gandalf_icon",
-		"particle": "item/gui/gandalf_icon"
+		"0": "item/gui/dwarf_icon",
+		"particle": "item/gui/dwarf_icon"
 	},
 	"elements": [
 		{
@@ -17,8 +17,7 @@
 	"display": {
 		"gui": {
 			"rotation": [0, 180, 0],
-			"translation": [-0.5, 0, 0],
-			"scale": [0.87, 0.87, 0.87]
+			"scale": [0.96, 0.96, 0.96]
 		}
 	}
 }
