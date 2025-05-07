@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/gui/gimli_icon",
-		"particle": "item/gui/gimli_icon"
+		"0": "item/gui/istar_icon",
+		"particle": "item/gui/istar_icon"
 	},
 	"elements": [
 		{
@@ -17,7 +17,8 @@
 	"display": {
 		"gui": {
 			"rotation": [0, 180, 0],
-			"scale": [0.96, 0.96, 0.96]
+			"translation": [-0.5, 0, 0],
+			"scale": [0.87, 0.87, 0.87]
 		}
 	}
 }

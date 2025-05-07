@@ -25,14 +25,14 @@
                 "threshold": 3,
                 "model": {
                     "type": "model",
-                    "model": "gui/class_icons/gimli_icon"
+                    "model": "gui/class_icons/dwarf_icon"
                 }
             },
 			{
                 "threshold": 4,
                 "model": {
                     "type": "model",
-                    "model": "gui/class_icons/gandalf_icon"
+                    "model": "gui/class_icons/istar_icon"
                 }
             },
 			{
