@@ -13,6 +13,13 @@
                     "type": "model",
                     "model": "item/troll_hammer"
                 }
+            },
+			{
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "item/totis_weapon"
+                }
             }
         ]
     }
