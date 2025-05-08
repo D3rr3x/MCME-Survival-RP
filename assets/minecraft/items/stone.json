@@ -20,6 +20,13 @@
                     "type": "model",
                     "model": "gui/race_ui"
                 }
+            },
+			{
+                "threshold": 36,
+                "model": {
+                    "type": "model",
+                    "model": "gui/jobs_ui"
+                }
             }
         ]
     }
