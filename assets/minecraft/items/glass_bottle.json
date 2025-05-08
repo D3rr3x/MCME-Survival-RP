@@ -11,35 +11,35 @@
                 "threshold": 1,
                 "model": {
                     "type": "model",
-                    "model": "item/icons/hobbit_icon"
+                    "model": "gui/class_icons/hobbit_icon"
                 }
             },
 			{
                 "threshold": 2,
                 "model": {
                     "type": "model",
-                    "model": "item/icons/elf_icon"
+                    "model": "gui/class_icons/elf_icon"
                 }
             },
             {
                 "threshold": 3,
                 "model": {
                     "type": "model",
-                    "model": "item/icons/dwarf_icon"
+                    "model": "gui/class_icons/dwarf_icon"
                 }
             },
 			{
                 "threshold": 4,
                 "model": {
                     "type": "model",
-                    "model": "item/icons/maia_icon"
+                    "model": "gui/class_icons/istar_icon"
                 }
             },
 			{
                 "threshold": 5,
                 "model": {
                     "type": "model",
-                    "model": "item/icons/human_icon"
+                    "model": "gui/class_icons/human_icon"
                 }
             }
         ]
