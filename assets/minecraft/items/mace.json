@@ -20,6 +20,13 @@
                     "type": "model",
                     "model": "item/totis_weapon"
                 }
+            },
+			{
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "item/mershy"
+                }
             }
         ]
     }
