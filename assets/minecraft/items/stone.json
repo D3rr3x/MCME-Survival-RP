@@ -27,6 +27,13 @@
                     "type": "model",
                     "model": "gui/jobs_ui"
                 }
+            },
+			{
+                "threshold": 37,
+                "model": {
+                    "type": "model",
+                    "model": "gui/stats_ui"
+                }
             }
         ]
     }
